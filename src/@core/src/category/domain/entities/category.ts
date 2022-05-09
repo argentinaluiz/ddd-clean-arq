@@ -1,5 +1,5 @@
-import { UniqueEntityId, Entity, EntityValidationError } from '#shared/domain'
 import { CategoryValidatorFactory } from "#category/domain";
+import { UniqueEntityId, Entity, EntityValidationError } from '#shared/domain'
 
 export type CategoryProperties = {
     name: string,
